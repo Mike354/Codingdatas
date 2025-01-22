@@ -1,5 +1,7 @@
+<!---Dichiarazione del tipo di documento di testo e della lingua di esso--->
 <!DOCTYPE html>
 <html lang="it">
+<!---Titolo della pagina e dati di configurazione--->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,16 +12,17 @@
     <meta name="robots" content="index, follow" />
     <title>Esercizio sulle Tabelle</title>
   </head>
+ <!---Inserimento delle varie tabelle della pagina web--->
   <body>
   <table border="1">
       <!---Dati della tabella di intestazione--->
       <tr>
-        <th>Anno</th>
-        <th>Rarità</th>
-        <th align="right">Circolanti</th>
-        <th align="right">Divisionali FDC</th>
-        <th align="right">Divisionali FS</th>
-        <th align="right">Tiratura Totale</th>
+        <th width="50 px">Anno</th>
+        <th width="50 px">Rarità</th>
+        <th width="100 px" align="right">Circolanti</th>
+        <th width="100 px" align="right">Divisionali FDC</th>
+        <th width="100 px" align="right">Divisionali FS</th>
+        <th width="100 px" align="right">Tiratura Totale</th>
       </tr>
       <!---Dati della tabella non di intestazione e non di sommario e riepilogo e dati della tabella non di intestazione di sommario e riepilogo--->
       <tr>
