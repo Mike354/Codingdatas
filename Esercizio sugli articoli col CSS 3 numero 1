@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Michele Esposito" />
+    <meta name="description" content="Pagina Web" />
+    <meta name="keyword" content="Pagina Web , Articoli" />
+    <meta name="generator" content="Visual Studio Code" />
+    <meta name="robots" content="index , follow" />
+    <title>Flexbox</title>
+  </head>
+  <body>
+    <span style="display: flex">
+      <h3 style="width: 120px; color: red">Schema.org</h3>
+      <h3 style="width: 80px">Docs</h3>
+      <h3 style="width: 120px">Schemas</h3>
+      <h3 style="width: 120px">Validate</h3>
+      <h3 style="width: 120px">About</h3>
+    </span>
+    <hr />
+    <p style="
+        margin-top: 70px;
+        margin-left: 70px;
+        width: 500px;
+        font-weight: 900;
+        font-size: larger;
+      " >
+      <span style="color: red">Schema.org</span> is a collaborative, community
+      activity with a mission to create , mantain , and promote schemas for
+      structured data on the Internet , on web pages , in email messages , and
+      beyond .
+    </p>
+    <div style="display: flex">
+      <p style="margin-left: 70px; width: 500px">
+        Schema.org vocabulary can be used with many different encodings ,
+        including RDFa , Microdata and JSON-LD . These vocabularies cover
+        entities , relationships between entities and actions , and can easily
+        be extended through a well-documented extension model . As of 2024 ,
+        over 45 million web domains markup their web pages with over 450 billion
+        Schema.org objects . Many applications from Google , Microsoft ,
+        Pinterest , Yandex and others already use these vocubalaries to power
+        rich , extensible experiences . Founded by Google , Microsoft , Yahoo
+        and Yandex , Schema.org vocabularies are developed by an open
+        <span style="color: red";>community</span> process , using the
+        <span style="color: red";>public-schemaorg@w3.org</span> mailing list and
+        through <span style="color: red";>Github</span> .
+      </p>
+    </div>
+    <div style="display: flex; justify-content: right">
+      <p style="
+          margin-left: 150px;
+          position: relative;
+          top: -220px;
+          margin-right: 300px;
+          width: 300px;
+        " >
+        A shared vocabulary makes it easier for webmasters and developers to
+        decide on a schema and get the maximum benefit for their efforts . It is
+        in the spirit that the founders , together with the larger community
+        have come together - to provide a shared collection of schemas . <br>
+        We invite you to <span style="color:red; font-weight: 300;">get started</span> ! <br>
+        View our blog at <span style="color:red; font-weight: 300;">blog.schema.org</span> or see <span style="color:red; font-weight: 300;">release history</span> for version 28.1 .
+      </p>
+    </div>
+  </body>
+</html>
