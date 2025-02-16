@@ -1,0 +1,101 @@
+<!---Dichiarazione del tipo di documento e della lingua di esso--->
+<!DOCTYPE html>
+<html lang="it">
+  <!---Titolo della pagina e dati di configurazione--->
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Michele Esposito"/>
+    <meta name="description" content="Pagina Web"/>
+    <meta name="keyword" content="Pagina Web , Tabelle col CSS 3"/>
+    <meta name="generator" content="Visual Studio Code"/>
+    <meta name="robots" content="index , follow"/>
+    <title>Tabella</title>
+    /*Regole di Stile*/
+    <style>
+      .elementoCentrato {
+        text-align: center;
+      }
+
+      .rigaDispari {
+        background-color: bisque;
+      }
+
+      th {
+        width: 140px;
+        background-color: rgb(174, 142, 59);
+        color: white;
+      }
+
+      th,
+      td {
+        padding: 5px;
+        border: 1px solid black;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!---Dati di intestazione--->
+      <tr>
+        <th>ALBERGO</th>
+        <th>REGIONE</th>
+        <th>STELLE</th>
+        <th>COSTO CAMERA</th>
+      </tr>
+      <!---Dati non di intestazione, non di sommario, non di riepilogo e di sommario e di riepilogo--->
+      <tr class="rigaDispari">
+        <td>Aristeo</td>
+        <td>Emilia Romagna</td>
+        <td class="elementoCentrato">1</td>
+        <td class="elementoCentrato">76.00 €</td>
+      </tr>
+      <tr>
+        <td>L'essenza</td>
+        <td>Lombardia</td>
+        <td class="elementoCentrato">2</td>
+        <td class="elementoCentrato">87.00 €</td>
+      </tr>
+      <tr class="rigaDispari">
+        <td>Sara</td>
+        <td>Lombardia</td>
+        <td class="elementoCentrato">4</td>
+        <td class="elementoCentrato">142.00 €</td>
+      </tr>
+      <tr>
+        <td>Grand hotel</td>
+        <td>Emilia Romagna</td>
+        <td class="elementoCentrato">5</td>
+        <td class="elementoCentrato">280.00 €</td>
+      </tr>
+      <tr class="rigaDispari">
+        <td>Capriccio</td>
+        <td>Calabria</td>
+        <td class="elementoCentrato">4</td>
+        <td class="elementoCentrato">155.00 €</td>
+      </tr>
+      <tr>
+        <td>Ambassador</td>
+        <td>Calabria</td>
+        <td class="elementoCentrato">2</td>
+        <td class="elementoCentrato">84.00 €</td>
+      </tr>
+      <tr class="rigaDispari">
+        <td>Aster</td>
+        <td>Emilia Romagna</td>
+        <td class="elementoCentrato">3</td>
+        <td class="elementoCentrato">134.00 €</td>
+      </tr>
+      <tr>
+        <td>Jazz</td>
+        <td>Sardegna</td>
+        <td class="elementoCentrato">3</td>
+        <td class="elementoCentrato">134.00 €</td>
+      </tr>
+    </table>
+  </body>
+</html>
